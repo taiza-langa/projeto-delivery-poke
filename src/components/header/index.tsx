@@ -13,7 +13,7 @@ export default function Header() {
           <a href="#home">
             Home
           </a>
-          <a href="#sobreNos" className="hover:text-[#9a2d5d]">
+          <a href="#about" className="hover:text-[#9a2d5d]">
             Sobre Nós
           </a>
           <a href="#menu" className="hover:text-[#9a2d5d]">

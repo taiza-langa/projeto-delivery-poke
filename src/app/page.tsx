@@ -1,4 +1,5 @@
 import Image from "next/image";
+import RotatingMenu from "@/components/Menu/RotatingMenu";
 
 export default function Home() {
   return (
@@ -32,6 +33,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <RotatingMenu />
     </div>
   );
 }

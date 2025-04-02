@@ -21,9 +21,9 @@ export default function RotatingMenu() {
 
   const menuItems: MenuItem[] = [
     { id: 1, name: "Salmon Poke Bowl", img: "/poke1.png", desc: "R$ 45,00" },
-    { id: 2, name: "Tuna Poke Bowl", img: "/poke1.png", desc: "R$ 50,00" },
-    { id: 3, name: "Shrimp Poke Bowl", img: "/poke1.png", desc: "R$ 48,00" },
-    { id: 4, name: "Veggie Poke Bowl", img: "/poke1.png", desc: "R$ 40,00" },
+    { id: 3, name: "Shrimp Poke Bowl", img: "/poke2.png", desc: "R$ 48,00" },
+    { id: 4, name: "Tuna Poke Bowl", img: "/poke3.png", desc: "R$ 40,00" },
+    { id: 2, name: "mixed poke bowl", img: "/poke4.png", desc: "R$ 50,00" },
   ];
 
   const addToCart = (item: MenuItem) => {
@@ -49,7 +49,7 @@ export default function RotatingMenu() {
                   src={item.img}
                   alt={item.name}
                   width={150}
-                  height={150}
+                  height={100}
                 />
                 <h3>{item.name}</h3>
                 <p>{item.desc}</p>

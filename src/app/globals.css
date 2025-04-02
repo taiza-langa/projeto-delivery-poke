@@ -131,12 +131,12 @@ section {
 /* --- TEXTOS DENTRO DOS CARDS --- */
 .item-card h3 {
   font-size: 1.2rem;
-  font-weight: 700;
+  font-weight: 500;
   color: #333;
 }
 
 .item-card p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 600;
   color: #c3672f;
 }
@@ -150,7 +150,7 @@ section {
   border: none;
   border-radius: 8px;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
@@ -159,4 +159,11 @@ section {
   background-color: #a14c69;
   letter-spacing: 0.03rem;
   transform: scale(1);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #c3672f !important;
+  font-size: 24px; 
+  padding: 10px;
 }

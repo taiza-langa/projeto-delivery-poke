@@ -31,7 +31,7 @@ export default function RotatingMenu() {
   };
 
   return (
-    <div className="menu-container">
+    <div id="menu" className="menu-container">
       <section>
         <h2>Nosso Cardápio</h2>
         <Swiper
@@ -62,15 +62,6 @@ export default function RotatingMenu() {
             </SwiperSlide>
           ))}
         </Swiper>
-
-        {/* <div className="cart-summary">
-          <h3>Carrinho ({cart.length} itens)</h3>
-          <ul>
-            {cart.map((item, index) => (
-              <li key={index}>{item.name} - {item.desc}</li>
-            ))}
-          </ul>
-        </div> */}
       </section>
     </div>
   );

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import RotatingMenu from "@/components/Menu/RotatingMenu";
 import About from "@/components/About/about";
+import Endereco from "@/components/Endereco/page"; 
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       </div>
       <About />
       <RotatingMenu />
+      <Endereco />
     </div>
   );
 }

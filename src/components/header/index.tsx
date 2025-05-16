@@ -19,6 +19,9 @@ export default function Header() {
           <a href="#menu" className="hover:text-[#9a2d5d]">
             Menu
           </a>
+          <a href="#endereco" className="hover:text-[#9a2d5d]">
+            Endereço
+          </a>
         </nav>
 
         {/* Ícones */}
@@ -37,12 +40,12 @@ export default function Header() {
             alt="shopping-cart"
             className="cursor-pointer transition-transform duration-300 hover:scale-110"
           />
-          <img 
-          width="30" 
-          height="30" 
-          src="https://img.icons8.com/ios-glyphs/30/c3672f/user--v1.png" 
-          alt="user--v1" 
-          className="cursor-pointer transition-transform duration-300 hover:scale-110"/>
+          <img
+            width="30"
+            height="30"
+            src="https://img.icons8.com/ios-glyphs/30/c3672f/user--v1.png"
+            alt="user--v1"
+            className="cursor-pointer transition-transform duration-300 hover:scale-110" />
         </div>
       </section>
     </header>

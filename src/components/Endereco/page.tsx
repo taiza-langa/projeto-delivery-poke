@@ -2,7 +2,7 @@ export default function Endereco() {
   return (
     <section id="endereco" className="py-20 px-4 text-[#c3672f] text-center">
       <h2 className="text-3xl font-bold mb-6 text-[#c3672f]">
-        NOSSO ENDEREÇO
+        Nosso Endereço
       </h2>
 
       <div className="flex justify-center">

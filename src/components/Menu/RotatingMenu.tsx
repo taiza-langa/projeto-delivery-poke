@@ -33,16 +33,7 @@ export default function RotatingMenu() {
   return (
 
     <div id="menu" className="menu-container">
-      <div className="menu-banner">
-        <Image
-          src="/banner.png"
-          alt="Banner"
-          width={19366}
-          height={500}
-          style={{ width: "100%", height: "auto" }}
-          priority
-        />
-      </div>
+
       <section>
         <h2>Nosso Cardápio</h2>
         <Swiper

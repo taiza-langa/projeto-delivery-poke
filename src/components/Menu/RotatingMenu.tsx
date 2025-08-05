@@ -32,7 +32,7 @@ export default function RotatingMenu() {
 
   return (
 
-    <div id="menu" className="menu-container">
+    <div id="menu" className="menu-container mb-2">
 
       <section>
         <h2>Nosso Cardápio</h2>

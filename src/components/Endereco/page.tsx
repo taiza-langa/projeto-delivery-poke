@@ -1,6 +1,6 @@
 export default function Endereco() {
   return (
-    <section id="endereco" className="py-20 px-4 text-[#c3672f] text-center">
+    <section id="endereco" className="px-4 text-[#c3672f] text-center">
       <h2 className="text-3xl font-bold mb-6 text-[#c3672f]">
         Nosso Endereço
       </h2>
